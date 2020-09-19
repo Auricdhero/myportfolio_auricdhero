@@ -1,0 +1,46 @@
+.intro-2 {
+    background: url("/img/auric1.JPG")no-repeat center center;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-nav{
+    font-weight: 900;
+    align-items: center;
+}
+
+.top-nav-collapse {
+    background-color: #000000;
+}
+
+.container h2{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 756px) {
+    .navbar {
+        background-color: #000000;
+    }
+}
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+#home::before,
+#portfolio::before,
+#resume::before,
+#profile::before,
+#contact::before {
+display: block;
+content: " ";
+margin-top: -65px;
+height: 65px;
+visibility: hidden;
+}
+
