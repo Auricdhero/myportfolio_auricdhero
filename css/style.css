@@ -37,10 +37,10 @@ header,
 #resume::before,
 #profile::before,
 #contact::before {
-display: block;
-content: " ";
-margin-top: -65px;
-height: 65px;
-visibility: hidden;
+    display: block;
+    content: " ";
+    margin-top: -65px;
+    height: 65px;
+    visibility: hidden;
 }
 
